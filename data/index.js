@@ -1,0 +1,8 @@
+module.exports = () => {
+    const data = { blogs: [] }
+    // Create 1000 users
+    for (let i = 0; i < 3; i++) {
+      data.blogs.push({ id: i, title: `blog${i}`, author: 'admin' , body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quis molestias atque maxime reiciendis corporis libero et? Architecto, corporis tenetur cum suscipit culpa veniam non minima soluta temporibus. Doloribus sunt ipsum magnam odio obcaecati nulla aliquid eaque aut beatae perferendis, repudiandae sapiente omnis nihil voluptate reprehenderit earum reiciendis veritatis velit voluptates ad est numquam labore adipisci! Recusandae expedita, asperiores quas reprehenderit facere eveniet quasi voluptate odio quibusdam, porro reiciendis sint in maiores vitae nemo non pariatur sequi dignissimos totam. Nihil at illum excepturi ipsum suscipit fugit impedit cum, numquam beatae odio? Dolorem vitae soluta voluptatum dicta modi. Quia rem voluptates non iure laudantium expedita error consectetur necessitatibus cupiditate vero eligendi veniam, dolores dolore nostrum, eos natus similique maxime molestiae? Esse doloremque, hic iste, quis pariatur minus dignissimos voluptate veniam error voluptatum repudiandae delectus incidunt. Fugiat vero animi ut itaque laboriosam, commodi consequuntur sit rerum officiis architecto tenetur eaque error officia quis qui debitis quidem dignissimos ipsum earum magni nemo sed sapiente. Provident debitis sequi modi distinctio quis culpa nesciunt porro iusto, molestiae ducimus at, ex fuga inventore exercitationem ratione ipsum, consequuntur non voluptatem eveniet quos numquam vel recusandae. Minima, recusandae aspernatur expedita iste consequuntur vero dolorem tempore temporibus obcaecati laudantium.' })
+    }
+    return data
+  }
